@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+</head>
+<body>
+  <h1>Formularios</h1>
+  <form method="POST" action="./backend/form.php" enctype="multipart/form-data">
+    <!-- method: contiene un verbo que indica como van a viajar los datos al fichero o a la función de dicho fichero que los va a procesar
+      GET: se usa para enviar datos que no son sensibles, es decir la información que se recibe no es privada. ej: caja de búsqueda.
+      POST: encripta la información en la petición y no será visible por terceros, útil para enviar datos que son sensibles, es decir la información que se recibe es privada. -->
+    <!-- action: contiene la ruta del archivo que va a procesar los datos -->
+    <!-- enctype: sirve para enviar los archivos que queramos subir -->
+
+    <h2>Inputs</h2>
+    <table>
+      <tr>
+        <td>Texto</td>
+        <td><input type="text" name="username"></td>
+      </tr>
+      <tr>
+        <td>Número</td>
+        <td><input type="number" name="age"></td>
+      </tr>
+      <tr>
+        <td>Contraseña</td>
+        <td><input type="password" name="password"></td>
+      </tr>
+      <tr>
+        <td>Fecha</td>
+        <td><input type="date" name="date"></td>
+      </tr>
+      <tr>
+        <td>Hora</td>
+        <td><input type="time" name="time"></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td><input type="email" name="email"></td>
+      </tr>
+      <tr>
+        <td>Carga de archivos</td>
+        <td><input type="file" name="file"></td>
+      </tr>
+    </table>
+  </form>  
+  <hr>
+  <h2>Ejemplo de formulario</h2>
+  <form method="POST" action="form2.php">
+    <label for="username">Nombre de usuario</label>
+    <input type="text" name="username" id="username" placeholder="Por ejemplo: LeonDev"> <!-- placeholder: coloca una marca de agua, una sugerencia en el input -->
+    <br>
+    <label for="age">Edad</label>
+    <input type="number" name="age" id="age" value="18"> <!-- value: valor por defecto en el input -->
+  </form>
+  <hr>
+</body>
+</html>
