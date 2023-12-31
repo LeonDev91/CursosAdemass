@@ -56,5 +56,87 @@
     <input type="number" name="age" id="age" value="18"> <!-- value: valor por defecto en el input -->
   </form>
   <hr>
+  <h2>Selecciones</h2>
+  <form>
+    <label for="pais">País:</label>
+    <select name="pais" id="pais">
+      <!-- multiple: permite elegir varios valores -->
+      <option value="co">Colombia</option>
+      <option value="ar">Argentina</option>
+      <option value="cl">Chile</option>
+      <option value="ec">Ecuador</option>
+      <option value="pe">Perú</option>
+      <option value="mx">México</option>
+      <option value="sv">El Salvador</option>
+      <option value="es">España</option>
+    </select>
+  </form>
+  <hr>
+  <h2>Botones de radio</h2>
+  <form>
+    <input type="radio" name="comida" value="arroz" id="arroz">
+    <label for="arroz">Arroz</label><br>
+    <input type="radio" name="comida" value="pollo" id="pollo">
+    <label for="pollo">Pollo</label><br>
+  </form>
+  <hr>
+  <h2>Botones de chequeo</h2>
+  <form>
+    <input type="checkbox" name="terminos" value="yes" id="terminos">
+    <label for="terminos">Acepto los términos y condiciones</label>
+  </form>
+  <hr>
+  <h2>Rangos</h2>
+  <form>
+    <label for="porcentaje">Tu dominio de HTML:</label>
+    <input type="range" name="porcentaje" min="0" max="100" id="porcentaje">
+  </form>
+  <hr>
+  <h2>Áreas de texto</h2>
+  <form>
+    <textarea name="comentario" id="comentario" cols="30" rows="10" minlength="10" maxlength="500" placeholder="Escribe aquí tu comentario..."></textarea>
+  </form>
+  <hr>
+  <h2>Validaciones</h2>
+  <!-- required -->
+  <hr>
+  <h2>Envíos</h2>
+  <form method="POST" action="./backend/form3.php">
+    <label for="name">Nombre:</label>
+    <input type="text" name="name" id="name" required><br>
+    <label for="password">Contraseña:</label>
+    <input type="password" name="password" id="password"><br>
+    <input type="submit" value="Enviar">
+  </form>
+  <hr>
+  <h2>Ejercicio</h2>
+  <h3>Registrar usuario</h3>
+  <form method="POST" action="./backend/form4.php">
+    <label for="nombre"><b>Nombre de usuario:</b></label>
+    <input type="text" name="nombre" id="nombre" placeholder="Ejemplo: leondev"><br><br>
+    <label for="email"><b>Email:</b></label>
+    <input type="email" name="email" id="email" placeholder="Ejemplo: ld@gmail.com"><br><br>
+    <label for="contrasena"><b>Contraseña:</b></label>
+    <input type="password" name="contrasena" id="contrasena"><br><br>
+    <label for="repcontrasena"><b>Repite contraseña:</b></label>
+    <input type="password" name="repcontrasena" id="repcontrasena"><br><br>
+    <label for="fecha"><b>Fecha de nacimiento:</b></label>
+    <input type="date" name="fecha" id="fecha"><br><br>
+    <label for="sobreti"><b>Cuenta algo sobre ti:</b></label><br>
+    <textarea name="sobreti" id="sobreti" cols="30" rows="10"></textarea><br><br>
+    <label for="medio"><b>Cómo nos conociste:</b></label>
+    <select name="medio" id="medio">
+      <option value="google">Google</option>
+      <option value="facebook">facebook</option>
+      <option value="youtube">youtube</option>
+      <option value="instagram">instagram</option>
+      <option value="whatsapp">whatsapp</option>
+      <option value="tiktok">TikTok</option>
+    </select><br><br>
+    <input type="submit" value="Registrarme">
+  </form>
+  <hr>
+  <!-- Material de esta lección:
+    https://gogodev.net/descargas/html4.pdf -->
 </body>
 </html>
