@@ -1,3 +1,17 @@
+/* Selector de etiqueta*/
 h1 {
   color: blue;
+}
+
+/*Selector de clase*/
+.parrafo {
+  color: red;
+  font-size: 24px;
+}
+
+/*Selección por identificador (id)*/
+#lorem {
+  color: green;
+  font-size: 30px;
+  font-family: monospace;
 }
