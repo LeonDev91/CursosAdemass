@@ -15,3 +15,24 @@ h1 {
   font-size: 30px;
   font-family: monospace;
 }
+
+/*Agrupación*/
+h3, h4, h5 {
+  color: aqua;
+  font-size: 17px;
+}
+
+/*Anidamiento*/
+.card a {
+  color: chocolate;  
+}
+
+/*Selección por atributo*/
+nav ul li a {
+  font-size: 20px;
+}
+
+a[href="/"] {
+  color: orange;
+  font-size: 24px;
+}
