@@ -36,3 +36,22 @@ a[href="/"] {
   color: orange;
   font-size: 24px;
 }
+
+/*Wildcard*/
+* {
+  color: blueviolet;
+  font-family: monospace;
+}
+
+/*Important*/
+h4 {
+  color: blue !important;
+}
+
+.title {
+  color: red;
+}
+
+#title {
+  color: brown;
+}
