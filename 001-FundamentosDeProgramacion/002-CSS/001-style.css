@@ -55,3 +55,19 @@ h4 {
 #title {
   color: brown;
 }
+
+/*Pseudoselector: pseudoclase*/
+button {
+  background-color: brown;
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
+button:focus {
+  background-color: red;
+}
