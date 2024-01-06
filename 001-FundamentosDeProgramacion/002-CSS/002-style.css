@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  font-size: 20px;
+}
+
 /*Pixeles*/
 .container {
   background-color: brown;
@@ -30,7 +34,7 @@
   height: 40svh;
 }
 
-/*Color*/
+/*Medidas de color*/
 .color {
   width: 30vw;
   height: 10vh;
@@ -54,4 +58,14 @@
 /*HSL*/
 .color4 {
   background-color: hsl(35, 25%, 40%);
+}
+
+/*Medidas de texto*/
+.p-em {
+  font-size: 18px;
+  margin: 2em; /*36px*/
+}
+
+.p-rem {
+  margin: 2rem;
 }
