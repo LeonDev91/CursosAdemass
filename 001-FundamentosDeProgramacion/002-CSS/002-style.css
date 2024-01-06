@@ -29,3 +29,29 @@
   width: 20svw;
   height: 40svh;
 }
+
+/*Color*/
+.color {
+  width: 30vw;
+  height: 10vh;
+}
+
+/*Hexadecimal*/
+.color1 {
+  background-color: #5d23a8;
+}
+
+/*RGB*/
+.color2 {
+  background-color: rgb(200,0,0);
+}
+
+/*RGBA*/
+.color3 {
+  background-color: rgba(200,0,0,0.8);
+}
+
+/*HSL*/
+.color4 {
+  background-color: hsl(35, 25%, 40%);
+}
