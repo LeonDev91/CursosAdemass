@@ -1,0 +1,8 @@
+div, h3, b {
+  border: 2px solid black;
+}
+
+/*Reglas CSS*/
+.disp-block p b {
+  display: block;
+}
