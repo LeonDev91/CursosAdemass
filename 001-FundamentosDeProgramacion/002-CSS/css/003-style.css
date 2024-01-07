@@ -3,6 +3,33 @@ div, h3, b {
 }
 
 /*Reglas CSS*/
+
+/*display*/
 .disp-block p b {
   display: block;
+}
+
+/*margin y padding*/
+.margin-padding {
+  margin: 20px;
+  padding: 50px;
+}
+
+.only-padding {
+  padding-top: 29px;
+  padding-right: 70px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+}
+
+.only-margin {
+  margin-top: 25px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  margin-left: 80px;
+}
+
+.two-values {
+  padding: 50px 10px;
+  margin: 100px 50px;
 }
