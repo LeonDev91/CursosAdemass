@@ -33,3 +33,45 @@ div, h3, b {
   padding: 50px 10px;
   margin: 100px 50px;
 }
+
+/*border*/
+.borde1 {
+  border: 5px dotted #b30f0f;
+}
+
+.borde2 {
+  border: 4px;
+  border-style: double;
+  border-color: blue;
+}
+
+.borde3 {
+  border-top: 5px double red;
+  border-right: 5px solid blue;
+  border-bottom: 5px dashed green;
+  border-left: 5px dotted yellow;
+}
+
+/*border-radius*/
+.borde4, .borde5, .borde6 {
+  margin: 20px;
+  padding: 20px;
+}
+
+.borde4 {
+  border: 3px solid #ffd900;
+  border-radius: 20px;
+}
+
+.borde5 {
+  border: 3px solid #00bd20;
+  border-radius: 20px 0;
+}
+
+.borde6 {
+  border: 3px solid #8d0083;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
