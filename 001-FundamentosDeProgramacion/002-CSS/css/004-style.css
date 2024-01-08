@@ -1,0 +1,50 @@
+/*static*/
+h3, p {
+  position: static;
+}
+
+/*relative*/
+.rel-t {
+  position: relative;
+  background-color: red;
+  color: white;
+  padding: 15px;
+  /*modificadores*/
+  top: 80px;
+  left: 200px;
+}
+
+.rel-p {
+  position: relative;
+  background-color: blueviolet;
+  color: white;
+  padding: 15px;
+  /*modificadores*/
+  bottom: 80px;
+  right: 30%;
+}
+
+/*absolute*/
+.card1, .card2 {
+  position: relative;
+  background-color: brown;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+
+.card1 h3 {
+  position: absolute;
+  background-color: blueviolet;
+  color: white;
+  top: 100px;
+  left: 100px;
+}
+
+.card2 h3 {
+  position: absolute;
+  background-color: violet;
+  color: darkblue;
+  bottom: 50px;
+  right: 50px;
+}
