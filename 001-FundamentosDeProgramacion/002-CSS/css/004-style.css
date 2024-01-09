@@ -51,7 +51,7 @@ h3, p {
 
 /*fixed*/
 .card3 {
-  position: absolute;
+  position: fixed;
   background-color: violet;
   color: darkblue;
   bottom: 50px;
