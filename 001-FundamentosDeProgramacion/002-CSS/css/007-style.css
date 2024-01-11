@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Ocean Rush';
+  src: url(../fonts/Ocean-Rush.otf);
+}
+
+@font-face {
+  font-family: Sono;
+  src: url(../fonts/Sono.woff2);
+}
+
+h2 {
+  font-family: 'Ocean Rush';
+}
+
+p {
+  font-family: Sono;
+}
