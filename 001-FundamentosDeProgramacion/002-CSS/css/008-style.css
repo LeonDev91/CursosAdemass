@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Ocean Rush';
+  src: url(../fonts/Ocean-Rush.otf);
+}
+
+@font-face {
+  font-family: Sono;
+  src: url(../fonts/Sono.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Zona de definición de variables*/
+  --color-primary: #29ffb8;
+  --color-secondary: #eeb01f;
+  --color-bg: #333;
+  --font-title: 'Ocean Rush';
+  --font-text: Sono;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-bg);
+  display: flex;
+  justify-content: space-around;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary);
+  font-family: var(--font-title);
+}
+
+.card {
+  background-color: var(--color-secondary);
+  font-family: var(--font-text);
+  width: 200px;
+  height: 250px;
+}
