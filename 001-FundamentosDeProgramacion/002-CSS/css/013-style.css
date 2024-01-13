@@ -1,0 +1,26 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: darkblue;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: blueviolet;
+}
+
+::selection {
+  color: darkred;
+  background: darkorange;
+}
+
+.container {
+  height: 100px;
+  overflow-y: scroll;
+}
