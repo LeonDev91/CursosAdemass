@@ -84,3 +84,21 @@ document.write(g);
 // Operadores de comparación
 
 // Operadores lógicos
+
+// CONDICIONALES
+let n = "nombre random";
+
+//if
+if(n == "nombre"){
+	alert("soy un nombre!");
+}
+
+// else if
+else if(n == "random"){
+	alert("soy un random!");
+}
+
+// else
+else{
+	alert("no soy ninguno :(");
+}
