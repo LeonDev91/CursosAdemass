@@ -1,6 +1,6 @@
 alert("Hola mundo")
 
-// Variables
+// VARIABLES
 recipiente = "papel";
 
 // Declaración de variable
@@ -10,7 +10,7 @@ recipiente = "papel";
 // Declaración
 let numero;
 
-// Casos especiales de tipos de datos: undefined, null, nan
+// CASOS ESPECIALES DE TIPOS DE DATOS: undefined, null, nan
 
 // Undefined: la variable existe pero no tiene valor
 alert(numero);
@@ -40,7 +40,7 @@ boolean = true;
 let name = prompt("Hola, cual es tu nombre?");
 alert("Hola " + name);
 
-// Operadores en JavaScript (básico)
+// OPERADORES (básico)
 
 // Operadores de asignación
 let number2 = 10;
@@ -54,7 +54,7 @@ let number3 = 20;
 let number4 = number2 + number3;
 document.write(number4);
 
-// Concatenación
+// CONCATENACIÓN
 let saludo = "hola ";
 let pregunta = "cómo estás?";
 let frase = saludo + pregunta;
@@ -78,3 +78,9 @@ document.write("<br>");
 let f = "qué";
 let g = `${d} ahora ${f}? ${name}`;
 document.write(g);
+
+// OPERADORES (intermedio)
+
+// Operadores de comparación
+
+// Operadores lógicos
