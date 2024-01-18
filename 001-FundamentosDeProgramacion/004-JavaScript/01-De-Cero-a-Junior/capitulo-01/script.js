@@ -35,3 +35,7 @@ alert(nombre);
 string = "cadena de texto";
 number = 19;
 boolean = true;
+
+//prompt
+let name = prompt("Hola, cual es tu nombre?");
+alert("Hola " + name);
