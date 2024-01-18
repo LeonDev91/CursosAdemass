@@ -53,3 +53,28 @@ document.write(number2);
 let number3 = 20;
 let number4 = number2 + number3;
 document.write(number4);
+
+// Concatenación
+let saludo = "hola ";
+let pregunta = "cómo estás?";
+let frase = saludo + pregunta;
+document.write(frase);
+document.write("<br>");
+
+// Forzamos la concatenación de números
+let a = 1;
+let b = 2;
+let c = "" + a + b;
+document.write(c);
+document.write("<br>");
+
+// Uso del método concat
+let d = "y entonces?";
+let e = d.concat(a);
+document.write(e);
+document.write("<br>");
+
+// Uso de template strings y backticks
+let f = "qué";
+let g = `${d} ahora ${f}? ${name}`;
+document.write(g);
