@@ -36,6 +36,20 @@ string = "cadena de texto";
 number = 19;
 boolean = true;
 
-//prompt
+// prompt
 let name = prompt("Hola, cual es tu nombre?");
 alert("Hola " + name);
+
+// Operadores en JavaScript (básico)
+
+// Operadores de asignación
+let number2 = 10;
+// number = number + 5;
+number2 += 5;
+// Escribe el contenido de la variable en el documento HTML
+document.write(number2);
+
+// Operadores aritméticos
+let number3 = 20;
+let number4 = number2 + number3;
+document.write(number4);
