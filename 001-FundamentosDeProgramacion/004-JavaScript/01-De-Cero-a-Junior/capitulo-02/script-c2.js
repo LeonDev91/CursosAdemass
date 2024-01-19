@@ -1,4 +1,4 @@
-// Arrays
+// ARRAYS
 let arr = ["juan", 32, "colombia"];
 let carnes = ["res", "cerdo", "pollo", "pescado", "cuy", "conejo", "cordero"];
 //alert(arr);
@@ -22,7 +22,7 @@ let componente = pc["procesador"];
 document.write(`<p>${componente}</p>`);
 document.write(`<hr>`);
 
-// Bucles
+// BUCLES
 
 // while
 // Primero se pregunta, luego se ejecuta
@@ -101,3 +101,76 @@ for(let array in arr2) {
     document.write(arr2[array] + "<br>");
   }
 }
+
+document.write(`<br>`);
+
+
+// FUNCIONES
+// Una función es un bloque de código reutilizable
+// Es específica en su acción
+// definición, declaración, llamada
+function saludar() {
+  let respuesta=prompt("¿Cómo va tu día?");
+  if(respuesta=="bien") {
+    alert("Me alegro!");
+  }else{
+    alert("Que pena");
+  }
+}
+
+saludar();
+
+const saludo = function() {
+  let respuesta=prompt("¿Cómo va tu día?");
+  if(respuesta=="bien") {
+    alert("Me alegro!");
+  }else{
+    alert("Que pena");
+  }
+}
+
+saludo();
+
+// return
+function suma() {
+  let num1 = parseInt(prompt("Dame el primer número a sumar:"));
+  let num2 = parseInt(prompt("Dame el segundo número a sumar:"));
+  let res = num1 + num2;
+  return res;
+}
+
+let prueba1 = suma();
+document.write(prueba1);
+
+document.write(`<br>`);
+
+// Parámetros
+function resta(num1, num2) {
+  let res = num1 - num2;
+  return res;
+}
+
+// Argumentos
+let resultado = resta(15,32);
+document.write(resultado);
+
+document.write(`<br>`);
+
+// Funciones flecha (arrow functions)
+const tocar1 = (nota) => {
+  return `${nota}! ${nota}! ${nota}!`;
+}
+
+const tocar2 = nota => {
+  return `${nota}! ${nota}! ${nota}!`;
+}
+
+const tocar3 = nota => `${nota}! ${nota}! ${nota}!`;
+
+// sin parametros
+const tocar4 = () => "Do! Re! Mi!";
+
+alert(tocar1("Do"));
+alert(tocar2("Re"));
+alert(tocar3("Mi"));
+alert(tocar4());
