@@ -14,6 +14,7 @@
 
 // Clase
 class Animal {
+  // Constructor
   constructor(especie, edad, color) {
     // Atributos
     this.especie = especie;
@@ -76,7 +77,7 @@ lucas.ladrar();
 
 // Métodos estáticos
 // Es un método que no necesita que la clase se defina para poder ser creado y
-// y no necesita que el objeto se instancie ser ejecutado
+// no necesita que el objeto se instancie para ser ejecutado
 Perro.morder();
 
 // Métodos de acceso
