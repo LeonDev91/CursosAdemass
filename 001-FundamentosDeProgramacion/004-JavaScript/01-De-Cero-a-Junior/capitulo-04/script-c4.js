@@ -89,7 +89,7 @@ document.write(resultado[4] + "<br>");
 
 document.write("<hr>");
 
-// substring: no devuelve un pedazo de la cadena que seleccionamos como una cadena nueva
+// substring: nos devuelve un pedazo de la cadena que seleccionamos como una cadena nueva
 // el primer parametro es inclusivo, el segundo parametro es exclusivo
 resultado = cadena2.substring(3,7);
 document.write(resultado + "<br>");
@@ -136,4 +136,24 @@ document.write("<hr>");
 // trimEnd: elimina los espacios en blanco al final de una cadena
 resultado = cadena13.trimEnd();
 document.write(resultado + "<br>");
+document.write("<hr>");
+
+
+// MÉTODOS DE ARRAYS
+
+// Transformadores
+
+// pop: elimina el ultimo elemento de un array y lo devuelve
+let nombres = ["pedro","maria","jorge"];
+document.write(nombres + "<br>");
+let resultado1 = nombres.pop();
+document.write(resultado1 + "<br>");
+document.write(nombres + "<br>");
+document.write("<hr>");
+
+// shift: elimina el primer elemento de un array y lo devuelve
+document.write(nombres + "<br>");
+resultado1 = nombres.shift();
+document.write(resultado1 + "<br>");
+document.write(nombres + "<br>");
 document.write("<hr>");
