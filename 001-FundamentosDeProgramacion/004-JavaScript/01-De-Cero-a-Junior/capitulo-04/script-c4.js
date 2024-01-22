@@ -175,3 +175,34 @@ document.write(numeros +"<br>");
 let resultado2 = numeros.reverse();
 document.write(numeros +"<br>");
 document.write("<hr>");
+
+// unshift: agrega uno o más elementos al inicio del array y devuelve la nueva longitud del array
+document.write(nombres + "<br>");
+resultado1 = nombres.unshift(1,3,7);
+document.write(resultado1 + "<br>");
+document.write(nombres + "<br>");
+document.write("<hr>");
+
+// sort: ordena los elementos de un array localmente de forma lexico-gráfica y devuelve el array ordenado
+let numeros1 = [6,3,7,2,5,8,1];
+let palabras = ["abece","manzana","naranja","pablo","dedo","barco"];
+document.write(numeros1 + "<br>");
+document.write(palabras + "<br>");
+resultado2 = numeros1.sort();
+resultado3 = palabras.sort();
+document.write(resultado2 + "<br>");
+document.write(resultado3 + "<br>");
+document.write("<hr>");
+
+// splice: cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos en las posiciones eliminadas
+document.write(palabras + "<br>");
+// elimina elementos
+palabras.splice(1,3);
+document.write(palabras + "<br>");
+palabras = ["abece","manzana","naranja","pablo","dedo","barco"];
+// agrega elementos
+palabras.splice(1,3,"filemon","satanás");
+document.write(palabras + "<br>");
+palabras.splice(3,0,"aurelio","zenon");
+document.write(palabras + "<br>");
+document.write("<hr>");
