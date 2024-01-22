@@ -141,7 +141,7 @@ document.write("<hr>");
 
 // MÉTODOS DE ARRAYS
 
-// Transformadores
+// Transformadores: modifican el array
 
 // pop: elimina el ultimo elemento de un array y lo devuelve
 let nombres = ["pedro","maria","jorge"];
@@ -156,4 +156,22 @@ document.write(nombres + "<br>");
 resultado1 = nombres.shift();
 document.write(resultado1 + "<br>");
 document.write(nombres + "<br>");
+document.write("<hr>");
+
+// push: agrega un elemento al array al final de la lista, devuelve la cantidad de elementos o la nueva posición del nuevo elemento
+nombres = ["pedro","maria","jorge"];
+document.write(nombres + "<br>");
+resultado1 = nombres.push("javier");
+document.write(resultado1 + "<br>");
+document.write(nombres + "<br>");
+resultado1 = nombres.push("andres","favio");
+document.write(resultado1 + "<br>");
+document.write(nombres + "<br>");
+document.write("<hr>");
+
+// reverse: invierte el orden de los elementos de un array
+let numeros = [1,2,3,4,5];
+document.write(numeros +"<br>");
+let resultado2 = numeros.reverse();
+document.write(numeros +"<br>");
 document.write("<hr>");
