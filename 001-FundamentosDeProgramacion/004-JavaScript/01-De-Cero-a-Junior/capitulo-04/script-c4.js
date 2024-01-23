@@ -206,3 +206,10 @@ document.write(palabras + "<br>");
 palabras.splice(3,0,"aurelio","zenon");
 document.write(palabras + "<br>");
 document.write("<hr>");
+
+// Accesores
+
+// join
+let resultado4 = palabras.join(" - ");
+document.write(resultado4 + "<br>");
+document.write("<hr>");
