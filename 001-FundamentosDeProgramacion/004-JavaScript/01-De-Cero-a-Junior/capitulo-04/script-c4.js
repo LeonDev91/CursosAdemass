@@ -209,7 +209,27 @@ document.write("<hr>");
 
 // Accesores
 
-// join
+// join: une todos los elementos de una matriz (u objeto similar) en una cadena y la devuelve
 let resultado4 = palabras.join(" - ");
 document.write(resultado4 + "<br>");
+document.write("<hr>");
+
+// slice: devuelve una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido)
+resultado4 = palabras.slice(3,6);
+document.write(resultado4 + "<br>");
+document.write("<hr>");
+
+// métodos ya vistos en cadenas: toString(), indexOf(), lastIndexOf(), includes()
+
+// De repetición
+
+// filter: crea un nuevo array con todos los elementos que cumplan la condición
+palabras.filter(palabra => document.write(palabra + "<br>"));
+document.write("<br>");
+let resultado5 = palabras.filter(palabra => palabra.length > 6);
+document.write(resultado5 + "<br>");
+document.write("<hr>");
+
+// forEach: ejecuta la función indicada una vez por cada elemento del array
+palabras.forEach(palabra => document.write(palabra + "<br>"));
 document.write("<hr>");
