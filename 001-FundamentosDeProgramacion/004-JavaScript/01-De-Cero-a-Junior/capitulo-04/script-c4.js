@@ -233,3 +233,67 @@ document.write("<hr>");
 // forEach: ejecuta la función indicada una vez por cada elemento del array
 palabras.forEach(palabra => document.write(palabra + "<br>"));
 document.write("<hr>");
+
+
+// OBJETO MATH (básico)
+// Solo trabaja con números
+
+// sqrt: devuelve la raíz cuadrada positiva de un número
+let numero = Math.sqrt(25);
+document.write(numero + "<br>");
+document.write("<hr>");
+
+//sbrt: devuelve la raíz cúbica de un númeroj
+numero = Math.cbrt(-27);
+document.write(numero + "<br>");
+document.write("<hr>");
+
+// max: devuelve el número mayor de entre cero o más números
+numero = Math.max(4,1,6,12,63,243,90);
+document.write(numero + "<br>");
+document.write("<hr>");
+
+// min: devuelve el número menor de entre cero o más números
+numero = Math.min(4,1,6,12,63,243,90);
+document.write(numero);
+document.write("<hr>");
+
+// random: devuelve un número pseudo-aleatorio entre 0 y 1
+numero = Math.random();
+document.write(numero + "<br>");
+document.write("<hr>");
+
+// round: devuelve el valor de un número redondeado al número entero más cercano
+numero = Math.random()*100;
+document.write(numero = Math.round(numero) + "<br>");
+document.write("<hr>");
+
+// fround: devuelve la representación flotante de precisión simple más cercana de un número
+numero = Math.fround(5.99999999999999999999);
+document.write(numero + "<br>");
+numero = Math.fround(5.7777799999);
+document.write(numero + "<br>");
+document.write("<hr>");
+
+// floor: devuelve el mayor entero, menor que o igual a un número
+numero = Math.floor(5.7);
+document.write(numero + "<br>");
+document.write("<hr>");
+
+// trunc: devuelve la parte entera del número x, y elimina los dígitos fraccionarios, no redondea
+numero = Math.trunc(5.789);
+document.write(numero + "<br>");
+document.write("<hr>");
+
+// Propiedades
+
+// PI
+document.write(Math.PI + "<br>");
+document.write(Math.SQRT1_2 + "<br>");
+document.write(Math.SQRT2 + "<br>");
+document.write(Math.E + "<br>");
+document.write(Math.LN2 + "<br>");
+document.write(Math.LN10 + "<br>");
+document.write(Math.LOG2E + "<br>");
+document.write(Math.LOG10E + "<br>");
+document.write("<hr>");
