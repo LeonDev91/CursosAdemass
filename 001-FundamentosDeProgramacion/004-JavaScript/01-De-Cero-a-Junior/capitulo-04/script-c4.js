@@ -287,7 +287,6 @@ document.write("<hr>");
 
 // Propiedades
 
-// PI
 document.write(Math.PI + "<br>");
 document.write(Math.SQRT1_2 + "<br>");
 document.write(Math.SQRT2 + "<br>");
