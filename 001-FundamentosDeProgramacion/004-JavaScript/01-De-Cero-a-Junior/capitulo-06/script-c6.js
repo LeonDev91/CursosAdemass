@@ -16,19 +16,12 @@
 // document - Métodos de selección de elementos
 
 // getElementById() - selecciona un elemento por ID
-
-// getElementsByTagName() - selecciona todos los elementos que coincidan con el nombre de la etiqueta especificada
-
-// querySelector() - devuelve el primer elemento que coincida con el grupo especificado de selectores
-
-// querySelectorAll() - devuelve todos los elementos que coincidan con el grupo especificado de selectores
-
-
 let parrafo = document.getElementById("parrafo");
 document.write(parrafo);
 document.write("<br>");
 document.write("<hr>");
 
+// getElementsByTagName() - selecciona todos los elementos que coincidan con el nombre de la etiqueta especificada
 parrafo = document.getElementsByTagName("p");
 document.write(parrafo); // devuelve una lista de elementos
 document.write("<br>");
@@ -38,6 +31,7 @@ document.write(parrafo[1]);
 document.write("<br>");
 document.write("<hr>");
 
+// querySelector() - devuelve el primer elemento que coincida con el grupo especificado de selectores
 parrafo = document.querySelector(".parrafo3");
 document.write(parrafo);
 document.write("<br>");
@@ -46,8 +40,33 @@ document.write(parrafo);
 document.write("<br>");
 document.write("<hr>");
 
+// querySelectorAll() - devuelve todos los elementos que coincidan con el grupo especificado de selectores
 parrafo = document.querySelectorAll(".parrafo3");
 document.write(parrafo);
 document.write("<br>");
 document.write(parrafo[3]);
 document.write("<br>");
+document.write("<hr>");
+
+
+// Métodos para definir, obtener y eliminar atributos
+
+const rangoEdad2 = document.querySelector(".rangoEdad2");
+document.write(rangoEdad2);
+document.write("<br>");
+document.write("<hr>");
+
+// setAttribute() - modifica el valor de un atributo
+rangoEdad2.setAttribute("type","text");
+
+const rangoEdad3 = document.querySelector(".rangoEdad3");
+rangoEdad3.setAttribute("type","color");
+
+// getAttribute() - obtiene el valor de un atributo
+document.write(rangoEdad3.getAttribute("type"));
+document.write("<br>");
+document.write("<hr>");
+
+// removeAttribute() - remueve el valor de un atributo
+const checkbox = document.querySelector(".only-check");
+checkbox.removeAttribute("type");
