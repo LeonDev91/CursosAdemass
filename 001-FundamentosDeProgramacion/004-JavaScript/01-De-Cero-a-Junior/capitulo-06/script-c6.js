@@ -92,3 +92,32 @@ enlace.setAttribute("tabindex","0");
 // title: contiene un texto con información relacionada al elemento al que pertenece
 const tituloH3 = document.querySelector(".titulo-h3");
 tituloH3.setAttribute("title","descripción del titulo cambiada desde JS");
+
+
+// Atributos de inputs
+const input = document.querySelector(".input-normal");
+
+// className
+document.write(input.className);
+
+// value
+document.write(input.value);
+
+// type
+input.type = "password";
+
+// accept
+const archivo = document.querySelector(".input-file");
+archivo.accept = "image/png";
+
+// form
+const submit = document.querySelector(".btn-submit");
+submit.form = "formulario";
+
+// minLength
+const inputForm = document.querySelector(".input-form");
+inputForm.minLength = 5;
+
+// placeholder
+
+// required
