@@ -70,3 +70,25 @@ document.write("<hr>");
 // removeAttribute() - remueve el valor de un atributo
 const checkbox = document.querySelector(".only-check");
 checkbox.removeAttribute("type");
+
+
+// Atributos globales
+const tituloH1 = document.querySelector(".titulo-h1");
+
+// contentEditable: indica si el elemento puede ser modificable por el usuario (bool)
+tituloH1.setAttribute("contenteditable","true");
+
+// dir: indica la direccionalidad del texto (hacerlo preferiblemente desde CSS)
+tituloH1.setAttribute("dir", "ltr"); // ltr y rtl
+
+// hidden: indica si el elemento aún no es, o ya no es, relevante
+const tituloH2 = document.querySelector(".titulo-h2");
+tituloH2.removeAttribute("hidden");
+
+// tabIndex: indica si el elemento puede obtener un focus de input
+const enlace = document.querySelector(".enlace");
+enlace.setAttribute("tabindex","0");
+
+// title: contiene un texto con información relacionada al elemento al que pertenece
+const tituloH3 = document.querySelector(".titulo-h3");
+tituloH3.setAttribute("title","descripción del titulo cambiada desde JS");
