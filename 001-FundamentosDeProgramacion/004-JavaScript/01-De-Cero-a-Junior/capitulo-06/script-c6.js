@@ -130,3 +130,26 @@ const tituloStyle = document.querySelector(".titulo-h2-style");
 tituloStyle.style.color = "red";
 tituloStyle.style.backgroundColor = "yellow";
 tituloStyle.style.padding = "30px";
+
+
+// Clases, classList y métodos de classList
+const tituloClase = document.querySelector(".titulo-clase");
+
+// add(): añade una clase
+tituloClase.classList.add("grande");
+
+// remove(): remueve una clase
+tituloClase.classList.remove("otra-clase");
+
+// item(): devuelve la clase del indice especificado
+console.log(tituloClase.classList.item(2));
+
+// contains(): verifica si el elemento posee o no, la clase especificada
+console.log(tituloClase.classList.contains("rojo"));
+
+// toggle(): si no tiene la clase especificada, la agrega, si ya la tiene, la elimina
+tituloClase.classList.toggle("blanco");
+tituloClase.classList.toggle("negro",false); // forza a que se elimine o se agregue la clase
+
+// replace(): reemplaza una clase por otra
+tituloClase.classList.replace("blanco","azul");
