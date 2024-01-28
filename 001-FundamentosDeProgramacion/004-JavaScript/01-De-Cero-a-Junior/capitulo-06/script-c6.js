@@ -199,3 +199,32 @@ for (i=0; i<20; i++){
   fragmento.appendChild(item);
 }
 contenedor.appendChild(fragmento);
+
+
+// Obtención y modificación de childs
+const contenedor2 = document.querySelector(".contenedor2");
+const contenedor3 = document.querySelector(".contenedor3");
+
+// firstChild
+const primerHijo = contenedor2.firstChild;
+console.log(primerHijo);
+
+// lastChild
+const ultimoHijo = contenedor2.lastChild;
+console.log(ultimoHijo);
+
+// firstElementChild
+const primerElemento = contenedor3.firstElementChild;
+console.log(primerElemento);
+
+// lastElementChild
+const ultimoElemento = contenedor3.firstElementChild;
+console.log(ultimoElemento);
+
+// childNodes
+const nodosHijos = contenedor3.childNodes;
+console.log(nodosHijos);
+
+// children
+const hijos = contenedor3.children;
+console.log(hijos);
