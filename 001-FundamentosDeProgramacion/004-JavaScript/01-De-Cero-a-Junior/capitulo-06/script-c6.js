@@ -247,3 +247,12 @@ contenedor4.removeChild(lorem);
 // hasChildNodes()
 let respuesta = contenedor4.hasChildNodes();
 console.log(respuesta);
+
+
+// Propiedades de parents
+
+// parentElement
+console.log(h2_nuevo.parentElement);
+console.log(contenedor4.parentElement);
+
+// parentNode
