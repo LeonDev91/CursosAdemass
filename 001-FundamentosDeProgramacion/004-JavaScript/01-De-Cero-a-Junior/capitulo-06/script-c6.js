@@ -49,6 +49,8 @@ document.write("<br>");
 document.write("<hr>");
 
 
+// Elementos
+
 // Métodos para definir, obtener y eliminar atributos
 
 const rangoEdad2 = document.querySelector(".rangoEdad2");
@@ -121,3 +123,10 @@ inputForm.minLength = 5;
 // placeholder
 
 // required
+
+
+// Atributo style
+const tituloStyle = document.querySelector(".titulo-h2-style");
+tituloStyle.style.color = "red";
+tituloStyle.style.backgroundColor = "yellow";
+tituloStyle.style.padding = "30px";
