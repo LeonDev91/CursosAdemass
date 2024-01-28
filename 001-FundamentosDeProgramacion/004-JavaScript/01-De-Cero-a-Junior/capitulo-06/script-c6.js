@@ -175,3 +175,27 @@ console.log(resultado);
 // outerHTML - devuelve el código html completo del elemento
 resultado = tituloMod.outerHTML;
 console.log(resultado);
+
+
+// Creación de elementos
+const contenedor = document.querySelector(".contenedor");
+
+// createElement()
+const item = document.createElement("LI");
+
+// createTextNode()
+const textoDelItem = document.createTextNode("Item de la lista");
+
+// appendChild()
+// es un metodo que se aplica al padre pero toma como parametro al hijo
+item.appendChild(textoDelItem);
+contenedor.appendChild(item);
+
+// createDocumentFragment()
+const fragmento = document.createDocumentFragment();
+for (i=0; i<20; i++){
+  const item = document.createElement("LI");
+  item.innerHTML = "Nuevo item de la lista";
+  fragmento.appendChild(item);
+}
+contenedor.appendChild(fragmento);
