@@ -228,3 +228,22 @@ console.log(nodosHijos);
 // children
 const hijos = contenedor3.children;
 console.log(hijos);
+
+
+// Métodos de childs
+const contenedor4 = document.querySelector(".contenedor4");
+const parrafo2 = document.createElement("P")
+const h2_nuevo = document.createElement("H2");
+h2_nuevo.innerHTML = "Titulo";
+
+// replaceChild()
+const h2_antiguo = document.querySelector(".h2");
+contenedor4.replaceChild(h2_nuevo,h2_antiguo);
+
+// removeChild()
+const lorem = document.querySelector(".lorem");
+contenedor4.removeChild(lorem);
+
+// hasChildNodes()
+let respuesta = contenedor4.hasChildNodes();
+console.log(respuesta);
