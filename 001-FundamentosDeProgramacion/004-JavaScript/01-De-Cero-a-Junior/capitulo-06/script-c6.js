@@ -153,3 +153,25 @@ tituloClase.classList.toggle("negro",false); // forza a que se elimine o se agre
 
 // replace(): reemplaza una clase por otra
 tituloClase.classList.replace("blanco","azul");
+
+
+// Obtención y modificación de elementos
+const tituloMod = document.querySelector(".titulo-mod");
+
+// textContent - devuelve el texto de cualquier nodo sin incluir el html
+let resultado = tituloMod.textContent;
+console.log(resultado);
+
+// innerText - devuelve el texto visible de un node element
+// ya no se usa mas
+
+// outerText - devuelve el texto de las etiquetas html incluidas las etiquetas
+// ya no se usa mas
+
+// innerHTML - devuelve el contenido html de un elemento
+resultado = tituloMod.innerHTML;
+console.log(resultado);
+
+// outerHTML - devuelve el código html completo del elemento
+resultado = tituloMod.outerHTML;
+console.log(resultado);
