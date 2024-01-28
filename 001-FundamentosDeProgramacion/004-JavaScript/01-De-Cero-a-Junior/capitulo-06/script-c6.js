@@ -256,3 +256,22 @@ console.log(h2_nuevo.parentElement);
 console.log(contenedor4.parentElement);
 
 // parentNode
+
+
+// Propiedades de siblings
+const cuatro = document.querySelector(".cuatro");
+
+// nextSibling
+console.log(h2_nuevo.nextSibling);
+
+// previousSibling
+console.log(cuatro.previousSibling);
+
+// nextElementSibling
+console.log(h2_nuevo.nextElementSibling);
+
+// previousElementSibling
+console.log(cuatro.previousElementSibling);
+
+
+// closest()
