@@ -20,3 +20,10 @@ window.alert("Mensaje de prueba - window.alert()"); // o simplemente alert()
 
 // print() - abre el cuadro de diálogo imprimir para imprimir el documento actual
 //window.print(); // o simplemente print()
+
+// prompt() - abre un cuadro de diálogo con un mensaje que solicita un dato al usuario de tipo string
+prompt("Cual es el nivel actual?");
+
+// confirm() - abre un cuadro de diálogo con un mensaje y dos botones: Aceptar y Cancelar
+// devuelve un valor booleano
+confirm("Estás seguro?");
